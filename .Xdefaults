@@ -1,0 +1,21 @@
+# urxvt.transparent: true
+# urxvt.shading: 30
+
+# requires composite manager (e.g. compton)
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0000/dddd
+
+urxvt.foreground: Green
+
+urxvt.scrollBar: false
+urxvt.font: xft:Droid Sans Mono:size=10
+
+urxvt.perl-ext-common default,clipboard,url-select,keyboard-select
+urxvt.url-select.launcher: google-chrome
+urxvt.url-select.underline: true
+urxvt.keysym.M-u: perl:url-select:select_next
+urxvt.keysym.M-Escape: perl:keyword-select:activate
+urxvt.keysym.M-s: perl:keyword-select:search
+
+urxvt.keysym.M-c: perl:clipboard:copy
+urxvt.keysym.M-v: perl:clipboard:paste
